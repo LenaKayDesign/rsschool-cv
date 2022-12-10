@@ -22,17 +22,18 @@ Junior Front-End Developer. A newcomer to the field of Web Development and Web D
 }`
 -----------------------------------
 ## Experience
-* Freethink, Inc. - Graphic Designer
-+ 04.2022 - present
-* Agritecno - Graphic Designer
-+ 10.2020 - 06.2021
-* Biomedical Data Science Lab - Graphic Designer, Infographer
-+ 03.2019 - 02.2020
+* **Freethink, Inc.** - Graphic Designer
++ *04.2022 - present*
+* **Agritecno** - Graphic Designer
++ *10.2020 - 06.2021*
+* **Biomedical Data Science Lab** - Graphic Designer, Infographer
++ *03.2019 - 02.2020*
 ------------------------------------
 ## Education
-* BA in Fine Arts (Valencia Polytechic Univesity)
-* Specialist Degree in Linguistics and Teaching (Voronezh State University)
+* **BA in Fine Arts** (Valencia Polytechic Univesity)
+* **Specialist Degree in Linguistics and Teaching (English, Spanish languages)** (Voronezh State University)
 ### Courses
-* UX/UI Design - Google
-* Interaction Design Foundation Member (since 11.2022)
-* Front-End Developer - Meta
+* *UX/UI Design* - Google
+* *Interaction Design Foundation Member* (since 11.2022)
+* *Front-End Developer* - Meta
+* *English C1 (Advanced)* - TOEIC
