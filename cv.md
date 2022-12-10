@@ -29,3 +29,10 @@ Junior Front-End Developer. A newcomer to the field of Web Development and Web D
 * Biomedical Data Science Lab - Graphic Designer, Infographer
 + 03.2019 - 02.2020
 ------------------------------------
+## Education
+* BA in Fine Arts (Valencia Polytechic Univesity)
+* Specialist Degree in Linguistics and Teaching (Voronezh State University)
+### Courses
+* UX/UI Design - Google
+* Interaction Design Foundation Member (since 11.2022)
+* Front-End Developer - Meta
