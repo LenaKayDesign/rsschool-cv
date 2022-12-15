@@ -2,6 +2,9 @@ body {
 background-color: #F4F2F2;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.heading {
+    font-size: 32px;
+}
 .block {
     display: block;
     margin: auto;
