@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Elena Poritskaia CV</title>
     <meta name="description" content="Elena Poritskaia CV">
     <meta name="author" content="Elena Poritskaia">
     <link rel="stylesheet" href="styles.css">
 </head>
+<body>
 <div class="block">
     <header>
+        <div class="inline">
         <nav>
-            <ul>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
+            <table>
+                <thead>
+               <th><a href="#contact">Contact</a></th>
+               <th><a href="#skills">Skills</a></th>
+               <th><a href="#education">Education</a></th>
+               <th><a href="#experience">Experience</a></th>
             </ul>
+                </thead>
+            </table>
         </nav>
+        </div>
     </header>
     <main>
         <table>
-            <thead>
+            <thead class="left">
                 <th>
                     <h1>Elena Poritskaia</h1>
-                    <h2>Junior Front-End Developer</h2>
                 </th>
-                <th>
+                <th id="contact">
                     <ul>
                         <li>Email: lenakaydesign@gmail.com</li>
                         <li>Phone: +34722693510</li>
@@ -49,7 +53,7 @@
                         transition into the field of Front-End Development.</td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="skills">
                         <h2>Skills</h2>
                     </td>
                     <td colspan="2">
@@ -67,12 +71,12 @@
                     <td>
                         <h2>Code sample</h2>
                     </td>
-                    <td colspan="2"><code>function multiply (a,b) {<br>
+                    <td class="code-sample" colspan="2"><code>function multiply (a,b) {<br>
                         return a*b<br>
                     }</code></td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="experience">
                         <h2>Experience</h2>
                     </td>
                     <td colspan="2">
@@ -85,7 +89,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td id="education">
                         <h2>Education</h2>
                     </td>
                     <td colspan="2">
@@ -113,8 +117,13 @@
 
         </table>
     </main>
-
-    <body>
+    <footer>
+      <div class="flex">
+                    <a href="https://github.com/LenaKayDesign"><b>Github</b></a>
+                   <p><b>2022</b></p>
+                    <a href="https://rs.school/js/"><img width="150px" src="/rs_school_js.svg" alt="RS School Logo"></a>
+      </div>
+    </footer>
         <script src="js/scripts.js"></script>
     </body>
 </div>
