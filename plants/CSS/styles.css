@@ -81,6 +81,7 @@ p {
     width: 525px;
 }
 button {
+    background: none;
     width: 158px;
     height: 44px;
     font-size: 16px;
@@ -88,6 +89,10 @@ button {
     border: 2;
     border-radius: 10px;
     border-color: #E06733;
+}
+button:active {
+    background-color: #E06733;
+    color: white;
 }
 #about {
     height: 666px;
@@ -110,7 +115,7 @@ h2 {
     flex-direction: row;
     background-color: #EDF2EC;
     width: 1440px;
-    height: 1300px;
+    height: 230px;
 }
 .service-button {
     font-family: Inika Regular, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -132,4 +137,10 @@ h2 {
     flex-wrap: nowrap;
     margin-left: 100%;
 }
-
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #EDF2EC;
+}
