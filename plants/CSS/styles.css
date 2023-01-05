@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Inika, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Inika Regular, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 1440px;
-    background-color: #EDF2EC;
+    /*background-color: #EDF2EC;*/
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -22,9 +22,10 @@ header {
     height: 134px;
     align-items: center;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 50px;
     color: #010201;
+    background-color: #EDF2EC;;
 }
 nav {
     width: 452px;
@@ -46,9 +47,11 @@ nav ul {
     color: #E06733;
 }
 #welcome {
+    width: 1440px;
     height: 532px;
     display: flex;
     justify-content: space-around;
+    background-color: #EDF2EC;;
 }
 .image {
     display: flex;
@@ -86,5 +89,21 @@ button {
     border: 2;
     border-radius: 10px;
     border-color: #E06733;
+}
+#about {
+    height: 666px;
+    width: 1440px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2 {
+    font-size: 40px;
+    color: #499A18;
+    font-weight: normal;
+}
+.orange {
+    color: #E06733;
 }
 
