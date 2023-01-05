@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: Inika Regular, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 1440px;
-    /*background-color: #EDF2EC;*/
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +21,7 @@ header {
     height: 134px;
     align-items: center;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: thin;
     line-height: 50px;
     color: #010201;
     background-color: #EDF2EC;;
@@ -51,7 +50,7 @@ nav ul {
     height: 532px;
     display: flex;
     justify-content: space-around;
-    background-color: #EDF2EC;;
+    background-color: #EDF2EC;
 }
 .image {
     display: flex;
@@ -78,7 +77,7 @@ p {
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     color: #636060;
-    line-height: 35px;
+    line-height: 30px;
     width: 525px;
 }
 button {
@@ -105,5 +104,32 @@ h2 {
 }
 .orange {
     color: #E06733;
+}
+#service {
+    display: flex;
+    flex-direction: row;
+    background-color: #EDF2EC;
+    width: 1440px;
+    height: 1300px;
+}
+.service-button {
+    font-family: Inika Regular, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #E06733;
+    border-color: #E06733;
+}
+#service-heading {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 22%;
+    width: 306px;
+    height: 94px;
+}
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 559px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 100%;
 }
 
