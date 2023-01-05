@@ -2,13 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: Inika, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.block {
     width: 1440px;
     background-color: #EDF2EC;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+.block {
+    width: 1440px;
 }
 .top {
     display: flex;
@@ -23,6 +24,7 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 50px;
+    color: #010201;
 }
 nav {
     width: 452px;
@@ -42,5 +44,47 @@ nav ul {
 }
 #home {
     color: #E06733;
+}
+#welcome {
+    height: 532px;
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: inline-start;
+    
+}
+.text h1 {
+font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 40px;
+color: #717171;
+line-height: 50px;
+}
+#green {
+    color: #499A18;
+}
+.text {
+    width: 525px;
+    float: right;
+}
+p {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #636060;
+    line-height: 35px;
+    width: 525px;
+}
+button {
+    width: 158px;
+    height: 44px;
+    font-size: 16px;
+    color: black;
+    border: 2;
+    border-radius: 10px;
+    border-color: #E06733;
 }
 
