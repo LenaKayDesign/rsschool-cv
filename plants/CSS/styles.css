@@ -86,7 +86,7 @@ button {
     height: 44px;
     font-size: 16px;
     color: black;
-    border: 2;
+    border: solid 2;
     border-radius: 10px;
     border-color: #E06733;
 }
@@ -121,6 +121,7 @@ h2 {
     font-family: Inika Regular, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #E06733;
     border-color: #E06733;
+    border-radius: 5px;
 }
 #service-heading {
     display: flex;
@@ -145,6 +146,7 @@ h2 {
     background-color: #EDF2EC;
     padding-bottom: 100px;
 }
+
 .head {
     color: #E06733;
     font-family:'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -163,9 +165,68 @@ h2 {
     color: #717171;
 }
 figcaption {
-    border-bottom: 1px;
-    border-right: 1px;
-    border-left: 1px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
     border-color: #E3E1D5;
     border-radius: 20px;
 }
+#prices {
+    /*height: 560px;*/
+    width: 1440px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
+#selection {
+    width: 332px;
+    height: 282px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-left: 40%;
+}
+h3 {
+    color: black;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-left: 40%;
+}
+#gardeners {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    margin-bottom: 20%;
+    margin-left: 20%;
+}
+.green {
+    color: #499A18;
+}
+#leaves-small {
+    margin-left: 40%;
+}
+.select {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: #EDF2EC;
+    border-radius: 20px;
+    height: 30px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
